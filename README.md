@@ -1,5 +1,5 @@
 ## Goals
-- Prepare for NS cyber/tech roles
+- Prepare for cyber/tech roles
 - Build strong CS foundations
 - Create meaningful projects
 
@@ -8,6 +8,3 @@
 - Learning GitHub
 - Building consistency
 
-## Day 1 Log
-- Set up GitHub and environment
-- Started CS61A

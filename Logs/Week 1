@@ -35,7 +35,7 @@
 
 # What was difficult
 - following environment diagrams for higher order functions
-- understanding what was python running in the background of fucntions
+- understanding what was python running in the background of functions
 
 # What I’ll do tomorrow
 - finish up the rest of chapter 1
@@ -69,7 +69,7 @@
 - intro to y-combinator
 
 # What was difficult
-- the lambda calculus logic
+- understanding the lambda calculus logic
 - solving some of the recursive problems
 
 # What I’ll do tomorrow
@@ -87,6 +87,7 @@
 
 # What was difficult
 - lambda calculus comprehension
+- syntax for list comprehension and lambda functions
 
 # What I’ll do tomorrow
 - start chapter 2 cs61a

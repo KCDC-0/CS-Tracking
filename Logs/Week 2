@@ -12,3 +12,24 @@
 # What I’ll do tomorrow
 - continue with chapter 2
 - clean up github
+
+
+## Day 7 Log
+# What I did today
+- cs61a chapters 2-4, 2-5 and 4-2
+- lab04, started on lab 05
+- explored iterables
+- clean up github a little
+
+# What I learned
+- the functionality and characteristics of iterables
+- common notation and practice in oop implementation
+- oop vs abstraction use cases
+
+# What was difficult
+- understanding the ‘lazy’ nature of iterables
+
+# What I’ll do tomorrow
+- continue with the labs and hw up to before  learning scheme
+- start on a project
+- explore lambda calculus further

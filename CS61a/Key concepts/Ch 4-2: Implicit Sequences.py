@@ -61,6 +61,37 @@ letters.__next__()
 # allowing for multiple passes over the same data
 
 
+# 'yield from' can be used to establish a transparent, bidirectional connection 
+# between the caller and the sub-generator
+
+def reader():
+    """A generator that fakes a read from a file, socket, etc."""
+    for i in range(4):
+        yield '<< %s' % i
+
+def reader_wrapper(g):
+    # Manually iterate over data produced by reader
+    for v in g:
+        yield v
+
+def reader_wrapper(g):
+    yield from g
+
+# These 2 reader_wrapper functions act the same
+# manually iterating over reader(), we can just yield from it
+# This can be used to implement generative functions recursively
+
+def hailstone(n):
+    yield n
+    if n == 1:
+        yield from hailstone(n)
+    elif n % 2 == 0:
+        yield from hailstone(n//2)
+    else:
+        yield from hailstone(3*n + 1)
+
+# The first yield returns the current number in the hailstone sequence while the second yield re-calls the function
+
 
 # Streams are a functional, recursive approach to lazy evaluation, similar to linked lists but with deferred computation
 # A Stream object stores a first element and a compute_rest function (usually a lambda)

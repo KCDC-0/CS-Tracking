@@ -1,4 +1,4 @@
-## Overview
+# Overview
 
 This repository documents my progression in computer science, focusing on building strong foundations in algorithms, systems, and problem solving.
 
@@ -8,25 +8,25 @@ I aim to:
 - Track improvements over time
 
 
-## Goals
+# Goals
 - Prepare for cyber/tech roles
 - Build strong CS foundations
 - Create meaningful projects
 
-## Current Focus
+# Current Focus
 - CS61A
 - Learning GitHub
 - Building consistency
 
-## Repository Structure
-# Foundations
+# Repository Structure
+## Foundations
 Course-based learning with extracted concepts and implementations
 - cs61a
 
-# Projects
+## Projects
 Applied implementations
 - (to be added)
 
-# Logs
+## Logs
 Daily and weekly reflections tracking progress and consistency
 

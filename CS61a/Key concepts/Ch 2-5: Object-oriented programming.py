@@ -74,6 +74,9 @@ Account.interest = 0.04
 # Subclasses can redefine specific methods (e.g., CheckingAccount redefining withdraw) 
 # to specialize behavior while inheriting the rest from the parent
 
+# Instead of re-writing the parent's initialization code in every subclass, 
+# call super().__init__() to reuse the existing logic
+
 # Interfaces are a collection of expected attributes and methods
 # Code is more robust when it depends on an object’s interface rather than its specific type
 

@@ -33,3 +33,26 @@
 - continue with the labs and hw up to before  learning scheme
 - start on a project
 - explore lambda calculus further
+
+## Day 8 Log
+# What I did today
+
+- cs61a labs 05-07
+- cs61a hw 05-06
+- project planning
+
+# What I learned
+
+- practicing implementation of linked lists, iterators, OOP and inheritance
+- familiarising with common syntax for OOP in python
+
+# What was difficult
+
+- implementing recursive generative functions
+- predicting behaviour of iterators
+
+# What I’ll do tomorrow
+
+- continue with project
+- finish up remaining subchapters in chapters 1 and 2
+- continue exploring lambda calculus

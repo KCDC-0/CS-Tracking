@@ -3,6 +3,7 @@
 ## Key Ideas:
 # - Iterables and iterators
 # - Generators and yield statements
+# - Streams and memoization
 
 
 

@@ -29,7 +29,7 @@ def fact(n):
     else:
         return n * fact(n-1)
 
-# Here is an example of linear recursion, where each self-call reduces the problem incrementally
+# Above is an example of linear recursion, where each self-call reduces the problem incrementally
 
 def is_even(n):
     if n == 0:
@@ -43,7 +43,7 @@ def is_odd(n):
     else:
         return is_even(n-1)
 
-# This is an example of mutual recursion, where two or more functions call each other in a circular dependency
+# Above is an example of mutual recursion, where two or more functions call each other in a circular dependency
 
 def fib(n):
     if n == 1:
@@ -53,7 +53,7 @@ def fib(n):
     else:
         return fib(n-2) + fib(n-1)
 
-# This is an example of tree recursion, where a function calls itself multiple times within a single execution frame
+# Above is an example of tree recursion, where a function calls itself multiple times within a single execution frame
 
 
 # The computational process evolved by a recursive function can often be visualized using calls to print

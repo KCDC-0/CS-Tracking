@@ -7,6 +7,7 @@
 # - Dictionaries
 # - non-local assignment
 # - dispatch functions
+# - propogating contraints
 
 
 # Objects combine data values with behavior
@@ -128,12 +129,12 @@ check_balance(a)
 
 
 
+
 # Propogating constraints is form of declarative programming,
 # where the relationships between variables rather than the specific steps to calculate them
 # The Constraint Network Model is built using two primary components:
 # Connectors: Objects that hold a value and link to various constraints. When a connector’s value is set, it notifies all linked constraints.
 # Constraint Boxes: Primitive computational units (like an adder, multiplier, or constant) that enforce a mathematical relationship between the connectors attached to them
-
 
 
 def connector(name=None):

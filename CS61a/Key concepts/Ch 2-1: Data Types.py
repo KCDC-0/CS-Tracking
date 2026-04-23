@@ -22,7 +22,7 @@ c = 1+1j
 # used for more complex values
 
 
-## These are the main native datat types in python:
+## These are the main native data types in python:
 # Booleans are either True or False.
 # Numbers can be integers (1 and 2), floats (1.1 and 1.2), fractions (1/2 and 2/3), or even complex numbers.
 # Strings are sequences of Unicode characters, e.g. an HTML document.

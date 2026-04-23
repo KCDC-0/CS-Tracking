@@ -1,3 +1,9 @@
+## Week 2 goals:
+- continue CS61A
+- familiarise with python
+- start on a project
+- continue exploring lambda calculus
+
 ## Day 6 Log
 # What I did today
 - cs61a chapters 2-1 to 2-3
@@ -36,23 +42,38 @@
 
 ## Day 8 Log
 # What I did today
-
 - cs61a labs 05-07
 - cs61a hw 05-06
 - project planning
 
 # What I learned
-
 - practicing implementation of linked lists, iterators, OOP and inheritance
 - familiarising with common syntax for OOP in python
 
 # What was difficult
-
 - implementing recursive generative functions
 - predicting behaviour of iterators
 
 # What I’ll do tomorrow
-
 - continue with project
 - finish up remaining subchapters in chapters 1 and 2
 - continue exploring lambda calculus
+
+## Day 9 Log
+# What I did today
+- cs61a chapters 2-7 and 2-8
+- continued lambda calculus
+- started on mahjong project
+
+# What I learned
+- revisited space and time complexity
+- relearned theta notation
+- learnt more common class implementations
+
+# What was difficult
+- project overview planning
+
+# What I’ll do tomorrow
+- continue with lambda calculus
+- possibly consolidate lambda calculus learning
+- continue project

@@ -145,12 +145,13 @@ f = compose1(lambda x: x * x,
 # Decorators provide a shorthand syntax (@) for applying higher-order functions to a definition
 # These 2 syntaxes are equal:
 
+'''
+@trace
+def triple(x):
+    return 3 * x
 
-# @trace
-# def triple(x):
-#     return 3 * x
+def triple(x):
+   return 3 * x
+triple = trace(triple)'''
 
-# def triple(x):
-#    return 3 * x
-# triple = trace(triple)
 

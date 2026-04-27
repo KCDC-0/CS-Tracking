@@ -15,7 +15,7 @@ I aim to:
 
 # Current Focus
 - CS61A
-- Learning GitHub
+- Scheme and logic based programming
 - Building consistency
 
 # Repository Structure

@@ -22,3 +22,23 @@
 - clean up anything left in lambda calculus repo
 - start on scheme in cs61a
 - look at IQC
+
+## Day 14 Log
+# What I did today
+- mahjong project engine update
+- added classes for player, hand and game logic
+- started learning scheme
+
+# What I learned
+- keeping abstraction layers separate when dealing with multiple class layers
+- started learning scheme syntax and basic functions
+
+# What was difficult
+- bug fixing in project
+- getting used to scheme syntax
+
+# What I’ll do tomorrow
+- add notes for the scheme from cs61a
+- start on the cs61a labs and hw for scheme
+- continue on mahjong project
+- continue looking at iqc

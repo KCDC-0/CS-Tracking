@@ -21,11 +21,12 @@ I aim to:
 # Repository Structure
 ## Foundations
 Course-based learning with extracted concepts and implementations
-- cs61a
+- CS61A
 
 ## Projects
 Applied implementations
-- (to be added)
+- https://github.com/KCDC-0/SG-Mahjong
+- https://github.com/KCDC-0/Lambda-Calculus
 
 ## Logs
 Daily and weekly reflections tracking progress and consistency

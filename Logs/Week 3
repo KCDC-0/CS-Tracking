@@ -42,3 +42,23 @@
 - start on the cs61a labs and hw for scheme
 - continue on mahjong project
 - continue looking at iqc
+
+## Day 15 Log
+# What I did today
+- cs61a chapters 3-1 to 3-3
+- hw07 and hw 08
+- lab 07
+
+# What I learned
+- getting used to scheme syntax and implementation
+- getting used to functional programming
+- practiced creating functions in scheme
+
+# What was difficult
+- testing scheme code
+- bug fixing in scheme syntax, esp with the number of brackets
+
+# What I’ll do tomorrow
+- continue on mahjong project
+- continue looking at iqc
+- continue with cs61a

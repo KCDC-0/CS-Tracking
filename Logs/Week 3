@@ -62,3 +62,21 @@
 - continue on mahjong project
 - continue looking at iqc
 - continue with cs61a
+
+## Day 16 Log
+# What I did today
+- cs61a chapter 3-4
+- mahjong project win condition update
+
+# What I learned
+- how interpreters generally work
+- learnt more about parsing and simplification
+- exposed to more examples of error handling
+- successfully implemented the win condition function
+
+# What was difficult
+- ensuring the recursion in the win condition didn’t break
+
+# What I’ll do tomorrow
+- break day
+- look at iqc

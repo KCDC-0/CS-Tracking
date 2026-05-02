@@ -97,3 +97,23 @@
 - continue mahjong project
 - practice scheme implementation
 - continue cs61a
+
+## Day 18 Log
+# What I did today
+- implementation of common list functions in scheme
+- mahjong reactions phase
+
+# What I learned
+- practice of scheme implementation, functional programming
+- implementation of recursion
+- insight into how scheme interpreters work through error messages
+- ideas on implementation of reaction phase in mahjong
+
+# What was difficult
+- deciding and planning how to handle reactions
+- bug fixing in scheme implementation
+
+# What I’ll do tomorrow
+- continue reaction handling logic in mahjong
+- last chapter in cs61a
+- look at iqc

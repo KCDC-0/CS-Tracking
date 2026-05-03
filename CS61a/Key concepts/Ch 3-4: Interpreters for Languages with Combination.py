@@ -7,7 +7,8 @@
 # - Calculator evaluation
 
 
-
+# The Scheme-Syntax Calculator (or simply Calculator) is an expression language for the arithmetic operations of 
+# addition, subtraction, multiplication, and division
 
 # Parsing is the process of generating expression trees from raw text input
 # A parser is a composition of two components: 

@@ -117,3 +117,26 @@
 - continue reaction handling logic in mahjong
 - last chapter in cs61a
 - look at iqc
+
+## Day 19 Log
+# What I did today
+- continued mahjong reactions phase
+- cs61a chapter 3-5
+- started on scheme interpreter
+
+# What I learned
+- implementation of reaction phase in mahjong
+- learnt structures and components of interpreters
+- learnt how abstraction can be implemented
+- started implementing parsing in interpreter
+
+# What was difficult
+- bug fixing in mahjong project
+- testing scheme interpreter and code
+
+# What I’ll do tomorrow
+- continue reaction handling logic in mahjong
+- cs61a scheme labs and hw
+- continue scheme interpreter
+- look at iqc
+

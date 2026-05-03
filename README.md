@@ -31,3 +31,5 @@ Applied implementations
 ## Logs
 Daily and weekly reflections tracking progress and consistency
 
+Daily commits are detailed here
+

@@ -30,3 +30,7 @@ Used to implement core ideas learnt in this course from scratch
 > https://github.com/KCDC-0/Lambda-Calculus
 >
 > Implementation of functional programming in mini projects
+> 
+> https://github.com/KCDC-0/Scheme-Interpreter
+> 
+> Implementation of a scheme interpreter in python

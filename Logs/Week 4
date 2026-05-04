@@ -1,0 +1,26 @@
+## Week 4 goals
+- finish up cs61a
+- continue looking at quant comps
+- continue with mahjong project
+
+
+## Day 20 log
+# What I did today
+- scheme interpreter
+- mahjong rules refreshing
+
+# What I learned
+- structure of interpreters
+- implementing the read-eval-print functions
+- implementing parsing and tokenising
+- understanding base cases in interpreters
+
+# What was difficult
+- getting the recursion to work properly in eval-apply
+- implementing built in functions properly
+
+# What I’ll do tomorrow
+- continue reaction handling logic in mahjong
+- finishing up cs61a scheme labs and hw
+- look at iqc
+

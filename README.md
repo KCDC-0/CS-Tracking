@@ -27,6 +27,7 @@ Course-based learning with extracted concepts and implementations
 Applied implementations
 - https://github.com/KCDC-0/SG-Mahjong
 - https://github.com/KCDC-0/Lambda-Calculus
+- https://github.com/KCDC-0/Scheme-Interpreter
 
 ## Logs
 Daily and weekly reflections tracking progress and consistency

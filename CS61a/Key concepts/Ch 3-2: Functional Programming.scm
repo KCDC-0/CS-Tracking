@@ -111,6 +111,14 @@
 
 (define c (list a 'b))
 
+; The normal quote ' and the quasiquote ` are both valid ways to quote an expression
+; However, the quasiquoted expression can be unquoted with the "unquote" , (represented by a comma)
+; When a term in a quasiquoted expression is unquoted, the unquoted term is evaluated, similar to f-strings in python
+
+
+`(* ,(+ a b) b)
+; returns (* 4 b)
+
 
 ; Scheme includes a "Turtle" graphics environment where a cursor moves and draws on a canvas based on procedural commands
 ; The begin form allows the execution of multiple sub-expressions in sequence
@@ -133,6 +141,17 @@
     (fd d)
     (pendown))
 
+
+; A macro is an operation performed on the source code of a program before evaluation
+
+; Here are the evaluation steps in a macro:
+; Evaluate the operator sub-expression, which evaluates to a macro
+; Call the macro procedure on the operand expressions without evaluating them first
+; Evaluate the expression returned from the macro procedure
+
+(define-macro (second expr) (car (cdr expr)))
+(second (+ 5 7))
+; returns 5
 
 
 

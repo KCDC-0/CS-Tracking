@@ -1,5 +1,6 @@
 ## Week 4 goals
 - finish up cs61a
+- start next course
 - continue looking at quant comps
 - continue with mahjong project
 
@@ -22,5 +23,25 @@
 # What I’ll do tomorrow
 - continue reaction handling logic in mahjong
 - finishing up cs61a scheme labs and hw
+- look at iqc
+
+## Day 21 log
+# What I did today
+- cs61a hw 09
+- cs61a lab 09-10
+- started looking at sql
+- continued reaction checker in mahjong
+
+# What I learned
+- quasiquotes and unquotes in scheme
+- implementation of macros
+
+# What was difficult
+- understanding evaluation behind macros
+- following the logic behind the reaction checker
+
+# What I’ll do tomorrow
+- continue mahjong project testing
+- continuing cs61a
 - look at iqc
 

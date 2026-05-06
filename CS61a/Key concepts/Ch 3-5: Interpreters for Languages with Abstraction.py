@@ -12,6 +12,7 @@
 
 # Parsing: 
 # Uses scheme_reader and scheme_tokens to convert text into nested Pair objects 
+# It must handle specialized syntax like quotation (') and dotted lists
 
 # Evaluation: A function that dispatches based on expression type:
 # Symbols: Looked up in the current environment

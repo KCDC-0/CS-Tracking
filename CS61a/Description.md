@@ -8,6 +8,8 @@
 ## Key concepts
 Course-based learning with extracted concepts and implementations for each chapter
 
+Main resource: https://www.composingprograms.com/
+
 Used for self-learning, serving as a summary of core ideas in the course material
 
 Can be used for future reference if needed

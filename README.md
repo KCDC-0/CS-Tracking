@@ -22,6 +22,7 @@ I aim to:
 ## Foundations
 Course-based learning with extracted concepts and implementations
 - CS61A
+- CS61B
 
 ## Projects
 Applied implementations

@@ -14,8 +14,9 @@ I aim to:
 - Create meaningful projects
 
 # Current Focus
-- CS61A
-- Scheme and logic based programming
+- CS61B
+- quantitive modelling
+- cybersecurity
 - Building consistency
 
 # Repository Structure
@@ -23,6 +24,7 @@ I aim to:
 Course-based learning with extracted concepts and implementations
 - CS61A
 - CS61B
+- Comptia Security+
 
 ## Projects
 Applied implementations

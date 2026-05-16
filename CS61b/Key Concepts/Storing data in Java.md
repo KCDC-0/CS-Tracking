@@ -57,7 +57,7 @@ Thus, the first line will outpiut false and the second line will output true
 
 <br>
 
-Here is an implemenation of linked lists:
+Here is an implemenation of linked lists without using arrays:
 
 ```
 public class IntList {
@@ -79,7 +79,51 @@ public int size() {
 ```
 
 <br>
+
+Some features of arrays include:
+- Arrays consist of a fixed integer length N
+- They contain a numbered sequence of memory boxes indexed from 0 to N - 1
+- All boxes within an array must contain data of the exact same type
+- Unlike classes, arrays do not possess member methods
+- Can be copied using System.arraycopy
+- Indices can be dyncamicallly computed at runtime, unlike class fields
+
+However unlike other languages, they do not support slicing syntax and cannot dynamically shrink or expand.
+
 <br>
+
+System.arraycopy takes five parameters:
+
+The array to use as a source, where to start in the source array, the array to use as a destination, where to start in the destination array, how many items to copy
+
+
+Here is an implementation of the key syntax involving arrays:
+```
+int[] z = null;
+int[] x, y;
+
+x = new int[]{1, 2, 3, 4, 5};
+y = x;
+x = new int[]{-1, 2, 5, 4, 99};
+y = new int[3];
+z = new int[0];
+int xL = x.length;
+
+String[] s = new String[6];
+s[4] = "ketchup";
+s[x[3] - x[1]] = "muffins";
+
+int[] b = {9, 10, 11};
+System.arraycopy(b, 0, x, 3, 2);
+```
+
+2D arrays can also be implemented as arrays of arrays
+
+Since arrays in Java cannot be resized, a new array needs to be created each time we want to extend our list. Thus, array resizing (through a geometric factor or otherwise) may be considered to reduce the performance toll of creating new arrays.
+
+<br>
+<br>
+
 
 ## Testing
 
@@ -94,3 +138,49 @@ Methodologies of testing include:
 - Integration Testing: Verifying that multiple units interact correctly
 
 Test-driven development is a philosophy where tests are written before the functional code.
+
+<br>
+<br>
+
+
+## Access control and management
+
+Private variables and methods can only be accessed by code inside the same .java file, and acts as a signal for users to ignore that function or variable. ON the other hand, the public keyword can be considered a signal that a method is available and will work forever exactly as it does now.
+
+An invariant is a fact about a data structure that is guaranteed to be true.
+
+Nested classes can also be implemented in Java as a way to organise code. If a nested class does not need to access the outer class's instance variables, it is declared static. This saves memory by eliminating the inner class's reference to its parent class.
+
+Here is an implementation of a nested class
+```
+public class SLList {
+       public class IntNode {
+            public int item;
+            public IntNode next;
+            public IntNode(int i, IntNode n) {
+                item = i;
+                next = n;
+            }
+       }
+
+       private IntNode first; 
+
+       public SLList(int x) {
+           first = new IntNode(x, null);
+       } 
+...
+```
+<br>
+
+To allow data structures to hold any reference type rather than just integers, Java uses Generics with angle bracket syntax '<>'. 
+
+Generics do not support primitives (e.g., int, double). Instead, use their corresponding object wrapper reference types (e.g., Integer, Double).
+
+```
+public class DLList<placeholder> { ... }
+...
+DLList<String> d1 = new DLList<>();
+```
+
+<br>
+

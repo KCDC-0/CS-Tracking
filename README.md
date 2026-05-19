@@ -25,12 +25,14 @@ Course-based learning with extracted concepts and implementations
 - CS61A
 - CS61B
 - Comptia Security+
+- WorldBrain Quant documentation
 
 ## Projects
 Applied implementations
 - https://github.com/KCDC-0/SG-Mahjong
 - https://github.com/KCDC-0/Lambda-Calculus
 - https://github.com/KCDC-0/Scheme-Interpreter
+- https://github.com/KCDC-0/Quant-Finance
 
 ## Logs
 Daily and weekly reflections tracking progress and consistency

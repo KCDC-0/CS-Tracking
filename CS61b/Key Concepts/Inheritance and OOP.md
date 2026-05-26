@@ -131,3 +131,16 @@ public class MainClass {
 }
 ```
 
+<br>
+<br>
+
+## Access control
+
+Access control allows for clean self-documentation and means that it’s safe to change private methods without worrying about breaking things. It also means that private and protected variables don’t need to be understood by users.
+
+Levels of access control:
+
+- Private: Only this class can see it
+- Package Protected (the default level): All classes in the same package can see it
+- Protected: Subclasses (that inherit from the parent) can also see it
+- Public: All classes in the program can see it

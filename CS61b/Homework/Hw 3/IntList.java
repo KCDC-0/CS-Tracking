@@ -106,6 +106,7 @@ public class IntList {
         L.addFirst(2);
         System.out.println(L.sum());
         System.out.println(L.first);
+        System.out.println(M.sum());
    }
 }
 

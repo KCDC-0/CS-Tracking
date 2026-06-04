@@ -1,4 +1,5 @@
-import edu.princeton.cs.algs4.StdRandom;
+package src;
+//import edu.princeton.cs.algs4.StdRandom;
 
 import java.awt.*;
 import java.util.Map;

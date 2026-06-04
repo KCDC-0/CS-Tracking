@@ -1,7 +1,9 @@
-import edu.princeton.cs.algs4.StdDraw;
+package src;
+//import StdDraw;
 
 import java.util.HashMap;
 import java.util.Map;
+
 
 public class ParticleSimulator {
     public static final Map<Character, ParticleFlavor> LETTER_TO_PARTICLE = Map.of(

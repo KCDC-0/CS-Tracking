@@ -144,3 +144,16 @@ Levels of access control:
 - Package Protected (the default level): All classes in the same package can see it
 - Protected: Subclasses (that inherit from the parent) can also see it
 - Public: All classes in the program can see it
+
+<br>
+<br>
+
+## Dynamic method selection
+
+The type on the left side of the assignment (parent in Parent p = new Child();) is the static type and determined at compile time. The type on the right side of the assignment (child) is the dynamic tyoe and assigned at runtime. A subclass can be assigned to a superclass variable, but not the other way around
+
+For resolving non-static methods, the compiler uses the static type of the reference and the static type of the arguments to determine the matching method signature. It will not see subclass-specific methods that do not exist in the superclass. Once the method signature is locked in by the compiler, Java looks at the dynamic type at runtime to see if that exact signature has been overridden, executing the lowest overridden version in the inheritance tree.
+
+For static methods, java always executes the method belonging to the static type of the reference, and static methods cannot be overidden.
+
+Casting an object (((Child) object)) temporarily changes its static type for that specific evaluation, allowing the compiler to look for static methods or specific method signatures matching the casted type instead of the original reference type.

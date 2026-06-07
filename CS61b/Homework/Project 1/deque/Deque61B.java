@@ -1,3 +1,5 @@
+package deque;
+
 import java.util.List;
 
 public interface Deque61B<T> {

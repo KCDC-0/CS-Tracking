@@ -114,6 +114,7 @@ Some features of arrays include:
 - Unlike classes, arrays do not possess member methods
 - Can be copied using System.arraycopy
 - Indices can be dyncamicallly computed at runtime, unlike class fields
+- Retrieval is independent of size
 
 However unlike other languages, they do not support slicing syntax and cannot dynamically shrink or expand.
 
@@ -144,7 +145,7 @@ int[] b = {9, 10, 11};
 System.arraycopy(b, 0, x, 3, 2);
 ```
 
-2D arrays can also be implemented as arrays of arrays
+2D arrays can also be implemented as arrays of arrays (int[][] 2d = new int[][] {{1}, {2, 3}, {4, 5, 6}};)
 
 Since arrays in Java cannot be resized, a new array needs to be created each time we want to extend our list. Thus, array resizing (through a geometric factor or otherwise) may be considered to reduce the performance toll of creating new arrays.
 

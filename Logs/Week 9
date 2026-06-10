@@ -38,3 +38,23 @@
 # What I’ll do tomorrow
 - continue cs61b, binary trees
 - alpha testing and security+ qns
+
+
+## Day 57 log
+# What I did today
+- cs61b chapter 15 - 17
+- alpha testing on iqc
+- lambda calculus revisit
+
+# What I learned
+- binary trees and accompanying functions
+- more fundamental data testing
+- adding sub and factorial functions to the church numerals
+
+# What was difficult
+- understanding the different implementation of binary trees
+- finding areas to improve fitness
+
+# What I’ll do tomorrow
+- continue cs61b, graphs
+- alpha testing and security+ qns

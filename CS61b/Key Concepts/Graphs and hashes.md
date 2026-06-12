@@ -51,4 +51,31 @@ In Java, hash tables are used in the data structures HashSet and HashMap which a
 
 A comparable is a generic interface that enables standardized comparisons between objects, widely used in Java libraries
 
+A comparator is an interface used to provide a callback function to to dictate custom sorting logic methods, often acting as an alternative to higher-order functions
 
+Essentially, a comparable is used to compare itself to other objects, while a Comparator compares two other objects but not itself.
+
+Here is an example in java:
+```
+public class MyComparable implements Comparable<MyComparable> {
+    public int foo;
+    ...
+
+    /** Instance method that has nothing to do with comparable */
+    public void doSomething() {
+        ...
+    }
+
+    /** Comparable method used to compare objects of this type */
+    public int compareTo(Object o) {
+        MyComparable mc = (MyComparable) o;
+        return ...
+    }
+}
+
+
+public interface Comparable<T> {
+ int compare(T o1, T o2);
+}
+
+```

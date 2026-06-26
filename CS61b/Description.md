@@ -26,4 +26,6 @@ Self-graded using upploaded solutions from berkeley and others: https://github.c
 
 ## Projects
 Used to implement core ideas learnt in this course from scratch
-> to be added
+> https://github.com/KCDC-0/Sorting
+>
+> Implementation of sorting algorithms to compare

@@ -1,4 +1,4 @@
-# Searching and traversals
+# Searching
 
 ## Binary search
 

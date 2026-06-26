@@ -69,3 +69,21 @@
 # What I’ll do tomorrow
 - continue cs61b: sorting
 - security+ qns if possible
+
+
+## Day 73
+# What I did today
+- cs61b chapters 29-32
+
+# What I learned
+- minimum spanning trees
+- java implementations of kruskal’s algorithm
+- structure of dikstra’s algorithm and A* algorithm
+
+# What was difficult
+- understanding the time complexities of the algorthms and sorting methods
+
+# What I’ll do tomorrow
+- continue cs61b: sorting, minimax and anything left
+- think of project for cs61b
+- security+ qns if possible

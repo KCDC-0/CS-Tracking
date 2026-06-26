@@ -33,6 +33,7 @@ Applied implementations
 - https://github.com/KCDC-0/Lambda-Calculus
 - https://github.com/KCDC-0/Scheme-Interpreter
 - https://github.com/KCDC-0/Quant-Finance
+- https://github.com/KCDC-0/Sorting
 
 ## Logs
 Daily and weekly reflections tracking progress and consistency

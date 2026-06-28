@@ -97,3 +97,21 @@
 - continue cs61b: sorting, minimax and anything left
 - think of project for cs61b
 - security+ qns if possible
+
+
+## Day 75
+# What I did today
+- cs61b chapters 33-34
+
+# What I learned
+- count and radix sort
+- comparing space and time complexity of sorting algorithms
+- python implementation of sorting algorithms
+
+# What was difficult
+- creating functions to compare time and space usage
+
+# What I’ll do tomorrow
+- continue cs61b: minimax, graph travesal in python and anything left
+- think of final project for cs61b
+- security+ qns if possible

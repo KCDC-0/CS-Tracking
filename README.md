@@ -15,7 +15,6 @@ I aim to:
 
 # Current Focus
 - CS61B
-- quantitive modelling
 - cybersecurity
 - Building consistency
 
@@ -25,6 +24,7 @@ Course-based learning with extracted concepts and implementations
 - CS61A
 - CS61B
 - Comptia Security+
+- lambda calculus and discrete math
 - WorldBrain Quant documentation
 
 ## Projects
@@ -34,6 +34,7 @@ Applied implementations
 - https://github.com/KCDC-0/Scheme-Interpreter
 - https://github.com/KCDC-0/Quant-Finance
 - https://github.com/KCDC-0/Sorting
+- https://github.com/KCDC-0/Graphs-and-Trees
 
 ## Logs
 Daily and weekly reflections tracking progress and consistency

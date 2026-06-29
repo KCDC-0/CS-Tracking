@@ -1,0 +1,23 @@
+## Week 10 goals
+- finish cs61b, including project
+- security+ test if possible
+- start tryhackme or any other new course 
+
+
+## Day 76
+# What I did today
+- cs61b chapters 35
+
+# What I learned
+- minimaxing and alpha beta pruning
+- representing graphs as a list of list
+- implementation of kruskal’s, dijkstra’s and prim’s algorithms
+- python implementation of graph traversal algorithms
+
+# What was difficult
+- implementing the representation of graphs in python from the theory
+
+# What I’ll do tomorrow
+- continue cs61b: anything left
+- final project for cs61b
+- security+ qns if possible
